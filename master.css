@@ -85,6 +85,11 @@ h3 {
     margin: 1em 0;
 }
 
+.name {
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
 /* MEDIA QUERIES */
 @media screen and (min-width: 1000px) {
     .cards {
