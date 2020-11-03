@@ -45,6 +45,15 @@ h2 {
     border-radius: 10px;
     font-size: 16px;
     margin: 1em 0;
+    color: #fff;
+}
+
+.card:nth-child(2) h2 {
+    background: slateblue;
+}
+
+.card:last-child h2 {
+    background: blueviolet;
 }
 
 h3 {
