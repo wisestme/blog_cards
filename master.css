@@ -262,6 +262,39 @@ section .container {
     margin-right: 10px;
 }
 
+footer {
+    background: #fff;
+    border-top: 1px solid #ddd;
+}
+
+footer .container {
+    padding: 1em;
+    text-align: center;
+}
+
+footer ul {
+    margin: 2em;
+}
+
+footer li {
+    display: inline;
+    list-style: none;
+    margin: 1em;
+}
+
+.social {
+    display: flex;
+    justify-content: space-around;
+    margin: 2em auto 0 auto;
+    fill: #bbb;
+    width: 80%;
+}
+
+.social svg {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 2em;
+}
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 1000px) {
