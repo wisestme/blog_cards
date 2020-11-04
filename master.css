@@ -9,6 +9,11 @@ body {
     background: #ddd;
 }
 
+svg {
+    width: 30px;
+    height: 30px;
+}
+
 .cards {
     width: 96%;
     margin: 0 auto;
