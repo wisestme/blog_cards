@@ -126,6 +126,10 @@ section .container {
     margin-bottom: 1em;
 }
 
+.share img {
+    margin-right: 0.5em;
+}
+
 .post h2 {
     margin-bottom: 0.5em;
 }
@@ -142,13 +146,33 @@ section .container {
     margin-right: 0.5em;
     border: 1px solid #ddd;
     padding: 0.5em 1em;
-    border-radius: 5px;
-    
+    border-radius: 5px;  
 }
 
-.share img {
-    margin-right: 0.5em;
+.sponsored {
+    position: relative;
+    background-image: url(./images/fem.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98%;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 10px 10px 0 0;
 }
+
+.sponsored a {
+    position: absolute;
+    bottom: -52px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 100%;
+    padding: 1em;
+    border-radius: 0 0 10px 10px;
+    text-decoration: none;
+}
+
+
 
 /* MEDIA QUERIES */
 @media screen and (min-width: 1000px) {
