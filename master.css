@@ -52,7 +52,7 @@ header > .container {
     justify-content: space-between;
 }
 
-h2 {
+.bottom h2 {
     background: cyan;
     display: inline-block;
     padding: 0.3em 0.4em;
@@ -113,11 +113,37 @@ section .container {
     background: #fff;
 }
 
-.share {
+#blog_cards .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.share > div{
     border: 1px solid #ddd;
     display: inline-block;
     padding: 0.5em 1em;
     border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+.post h2 {
+    margin-bottom: 0.5em;
+}
+
+#blog_cards ul {
+    margin: 1.5em 0;
+    list-style: none;
+    align-self: start;
+    margin-bottom: 2em;
+}
+
+#blog_cards ul li {
+    display: inline;
+    margin-right: 0.5em;
+    border: 1px solid #ddd;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    
 }
 
 .share img {
