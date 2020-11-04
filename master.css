@@ -18,10 +18,15 @@ svg {
     display: none;
 }
 
+header > .container {
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+    }
+
 .cards {
     width: 96%;
     margin: 0 auto;
-    padding: 1em;
 }
 
 .card {
@@ -97,6 +102,26 @@ h3 {
 .name {
     font-weight: bold;
     margin-bottom: 0.5em;
+}
+
+/* BLOG CARDS */
+section .container {
+    padding: 1em;
+}
+
+#blog_cards {
+    background: #fff;
+}
+
+.share {
+    border: 1px solid #ddd;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+}
+
+.share img {
+    margin-right: 0.5em;
 }
 
 /* MEDIA QUERIES */
