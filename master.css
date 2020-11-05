@@ -6,7 +6,7 @@
 
 body {
     font-family: sans-serif;
-    background: #ddd;
+    background: #F7F8FC;
 }
 
 svg {
@@ -22,6 +22,7 @@ header > .container {
     padding: 2em;
     display: flex;
     justify-content: space-between;
+    background: #fff;
     }
 
 .cards {
@@ -304,6 +305,21 @@ footer li {
 }
 
 /* MEDIA QUERIES */
+@media screen and (min-width: 770px) {
+    .no_small {
+        display: inline;
+    }
+
+    .small {
+        display: none;
+    }
+
+    nav a {
+        text-decoration: none;
+        margin-left: 1em;
+        color: #bbb;
+    }
+}
 @media screen and (min-width: 1000px) {
     .cards {
         width: 100%;
