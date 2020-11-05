@@ -72,7 +72,7 @@ header > .container {
 }
 
 h3 {
-    width: 80%;
+    font-size: 14px;
     margin-bottom: 1em;
 }
 
@@ -101,6 +101,7 @@ h3 {
 }
 
 .name {
+    font-size: 12px;
     font-weight: bold;
     margin-bottom: 0.5em;
 }
@@ -214,11 +215,12 @@ section .container {
 }
 
 .color_codes { 
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 1em auto;
+    max-width: 400px;
 }
 
 .color_codes div:first-child > span {
@@ -308,6 +310,26 @@ footer li {
     .card {
         width: 30%;
     }
+
+    footer {
+        display: flex;
+    }
+
+    footer .container {
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .social {
+        width: 30%;
+        align-self: center;
+        justify-content: space-around;
+        margin-right: 0;
+    }
+
+    
 }
 
 @media screen and (min-width: 1200px) {
@@ -317,5 +339,9 @@ footer li {
 
     .right_side {
         width: 35%;
+    }
+
+    #color .container {
+        margin: 4em 0;
     }
 }
