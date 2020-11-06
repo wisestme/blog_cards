@@ -19,6 +19,9 @@ svg {
 }
 
 header > .container {
+    position: fixed;
+    width: 100%;
+    margin-bottom: 1em;
     padding: 2em;
     display: flex;
     justify-content: space-between;
