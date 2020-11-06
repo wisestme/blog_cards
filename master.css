@@ -405,6 +405,18 @@ footer li {
     .right_side {
         width: 35%;
     }
+}
 
-    
+@media screen and (max-width: 500px) {
+    #blog_cards ul li {
+        margin-right: 0.3em;
+        padding: 0.3em 0.5em;  
+    }
+
+    .sponsored {
+        background-image: url(./images/fem_small.png);
+        background-size: contain;
+        width: 100%;
+       
+    }
 }
